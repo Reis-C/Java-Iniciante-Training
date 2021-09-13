@@ -15,26 +15,26 @@ public class Exerc04 {
 		/*if(alfabeto.equalsIgnoreCase("a") || alfabeto.equalsIgnoreCase("e") || 
 				alfabeto.equalsIgnoreCase("i") || alfabeto.equalsIgnoreCase("o") || 
 				alfabeto.equalsIgnoreCase("u")) {
-			System.out.println("A letra informada � uma vogal.");
+			System.out.println("A letra informada é uma vogal.");
 		} else {
-			System.out.println("A letra informada � uma consoante.");
+			System.out.println("A letra informada é uma consoante.");
 		}*/
 		
 		if(alfabeto.length() > 1) {
-			System.out.println("N�o � uma letra v�lida");
+			System.out.println("Não é uma letra válida");
 		}else {
 			switch(alfabeto) {
 			case "A":
 			case "E":
 			case "I":
 			case "O":
-			case "U	":
+			case "U":
 			case "a":
 			case "e":
 			case "i":
 			case "o":
-			case "u": System.out.println("A letra informada � uma vogal."); break;
-			default: System.out.println("A letra informada � uma consoante.");		
+			case "u": System.out.println("A letra informada é uma vogal."); break;
+			default: System.out.println("A letra informada é uma consoante.");
 		}
 		}
 		

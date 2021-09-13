@@ -15,10 +15,10 @@ public class Exerc05 {
 		double nota2 = scan.nextDouble();
 		
 		double media = (nota1 + nota2)/ 2;
-		System.out.println("A m�dia � " + media);
+		System.out.println("A média é " + media);
 		
 		if (media == 10){
-			System.out.println("Aprovado com Distin��o!!!");
+			System.out.println("Aprovado com Distinção!!!");
 		} else if ((media >= 7) && (media != 10)) {
 			System.out.println("Aprovado!!");
 		} else {
