@@ -16,7 +16,7 @@ public class Carro2 {
         this.capCombustivel = capCombustivel;
         this.consumoCombustivel = consumoCombustivel;
     }
-//boa pratca = um construtor vazio
+//boa pratica = um construtor vazio
     public Carro2() { }
 
 }
