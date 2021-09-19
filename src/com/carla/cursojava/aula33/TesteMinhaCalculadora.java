@@ -1,6 +1,6 @@
 package com.carla.cursojava.aula33;
 
-public class TesteCalculadora {
+public class TesteMinhaCalculadora {
 
     public static void main(String[] args) {
 
